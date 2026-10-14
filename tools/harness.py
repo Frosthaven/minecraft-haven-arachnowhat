@@ -143,7 +143,7 @@ def copy_instance():
 def install_mod():
     if not JAR.exists():
         raise SystemExit(f"{JAR} missing: run ./gradlew build first")
-    for old in (GAME / "mods").glob("haven-arachnowhat*.jar")   # versioned builds and the release jar:
+    for old in (GAME / "mods").glob("haven-arachnowhat*.jar"):   # versioned builds and the release jar
         old.unlink()
     shutil.copy2(JAR, GAME / "mods" / JAR.name)
 
