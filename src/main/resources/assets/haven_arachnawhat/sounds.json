@@ -1,0 +1,306 @@
+{
+  "angry_raccoon.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.aggro",
+        "type": "event",
+        "pitch": 0.7
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_raccoon.ambient"
+  },
+  "angry_raccoon.ambient.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.wolf.growl",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.45
+      }
+    ]
+  },
+  "angry_raccoon.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.hurt",
+        "type": "event",
+        "pitch": 0.75
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_raccoon.hurt"
+  },
+  "angry_raccoon.hurt.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.hoglin.hurt",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.35
+      }
+    ]
+  },
+  "angry_raccoon.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.death",
+        "type": "event",
+        "pitch": 0.85
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_raccoon.death"
+  },
+  "angry_raccoon.death.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.hoglin.death",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.35
+      }
+    ]
+  },
+  "angry_raccoon.step": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.wolf.step",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_raccoon.step"
+  },
+  "angry_cave_raccoon.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.aggro",
+        "type": "event",
+        "pitch": 1.0
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_cave_raccoon.ambient"
+  },
+  "angry_cave_raccoon.ambient.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.wolf.growl",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.45
+      }
+    ]
+  },
+  "angry_cave_raccoon.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.hurt",
+        "type": "event",
+        "pitch": 1.05
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_cave_raccoon.hurt"
+  },
+  "angry_cave_raccoon.hurt.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.hoglin.hurt",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.35
+      }
+    ]
+  },
+  "angry_cave_raccoon.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.death",
+        "type": "event",
+        "pitch": 1.15
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_cave_raccoon.death"
+  },
+  "angry_cave_raccoon.death.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.hoglin.death",
+        "type": "event",
+        "pitch": 1.5,
+        "volume": 0.3
+      }
+    ]
+  },
+  "angry_cave_raccoon.step": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.wolf.step",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_cave_raccoon.step"
+  },
+  "angry_ice_raccoon.ambient": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.aggro",
+        "type": "event",
+        "pitch": 0.55
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.ambient"
+  },
+  "angry_ice_raccoon.ambient.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.polar_bear.warning",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.5
+      }
+    ]
+  },
+  "angry_ice_raccoon.hurt": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.hurt",
+        "type": "event",
+        "pitch": 0.6
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.hurt"
+  },
+  "angry_ice_raccoon.hurt.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.polar_bear.hurt",
+        "type": "event",
+        "pitch": 0.8,
+        "volume": 0.5
+      }
+    ]
+  },
+  "angry_ice_raccoon.death": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.death",
+        "type": "event",
+        "pitch": 0.7
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.death"
+  },
+  "angry_ice_raccoon.death.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.ravager.death",
+        "type": "event",
+        "pitch": 1.2,
+        "volume": 0.35
+      }
+    ]
+  },
+  "angry_ice_raccoon.step": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.polar_bear.step",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.8
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.step"
+  },
+  "angry_ice_raccoon.bite": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.bite",
+        "type": "event",
+        "pitch": 0.65
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.bite"
+  },
+  "angry_ice_raccoon.bite.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.hoglin.attack",
+        "type": "event",
+        "pitch": 0.9,
+        "volume": 0.4
+      }
+    ]
+  },
+  "angry_ice_raccoon.swing": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.attack.sweep",
+        "type": "event",
+        "pitch": 0.7
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.swing"
+  },
+  "angry_ice_raccoon.grapple_latch": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.bite",
+        "type": "event",
+        "pitch": 0.5
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.grapple_latch"
+  },
+  "angry_ice_raccoon.grapple_latch.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.hoglin.attack",
+        "type": "event",
+        "pitch": 0.7,
+        "volume": 0.4
+      }
+    ]
+  },
+  "angry_ice_raccoon.grapple_spit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.spit",
+        "type": "event",
+        "pitch": 0.55
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.grapple_spit"
+  },
+  "angry_ice_raccoon.howl": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.screech",
+        "type": "event",
+        "pitch": 0.55
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.howl"
+  },
+  "angry_ice_raccoon.howl.grit": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.ravager.roar",
+        "type": "event",
+        "pitch": 1.3,
+        "volume": 0.35
+      }
+    ]
+  },
+  "parrot_imitate": {
+    "sounds": [
+      {
+        "name": "minecraft:entity.fox.aggro",
+        "type": "event",
+        "pitch": 1.6,
+        "volume": 0.6
+      }
+    ],
+    "subtitle": "subtitles.haven_arachnawhat.parrot_imitate"
+  }
+}

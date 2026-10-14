@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.frosthaven.havenarachnawhat.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ClientLanguageMixin",
+    "EntityTypeAccessor",
+    "AbstractSoundInstanceAccessor",
+    "IceSpiderAnimationMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
