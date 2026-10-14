@@ -13,12 +13,12 @@ import net.minecraft.client.renderer.entity.MobRenderer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.monster.Spider;
 
-/** Draws a Spider or Cave Spider as an Angry Raccoon at about the spider's size; with replacing off ({@link Raccoons#enabled}) it
+/** Draws a Spider or Cave Spider as an Mecha Raccoon at about the spider's size; with replacing off ({@link Raccoons#enabled}) it
  *  hands the entity to the original renderer. Climbing tips the body nose-up against the wall (front pivot). */
 public final class RaccoonRenderer<T extends Spider> extends MobRenderer<T, RaccoonModel<T>> {
     /** Model size 1.0 is about 0.6 wide, 1.0 tall (ears) and 1.6 long. */
     public enum Kind {
-        SPIDER(Raccoons.Skin.ANGRY, 1.15F, 0.8F),   // spider hitbox 1.4 x 0.9
+        SPIDER(Raccoons.Skin.MECHA, 1.15F, 0.8F),   // spider hitbox 1.4 x 0.9
         CAVE(Raccoons.Skin.CAVE, 0.6F, 0.45F);      // cave spider hitbox 0.7 x 0.5
 
         final Raccoons.Skin skin;

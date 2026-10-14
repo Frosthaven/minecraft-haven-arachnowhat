@@ -1,6 +1,6 @@
 """Spider test harness: a Prism instance "dev" (copy of "Haven Snapshot") with a flat creative world "dev" that shows
 every spider behavior on its own labeled mob ("Spider: walk", "Ice Spider: attack_bite", ...) and loops every spider
-sound clip and every Angry Raccoon sound, with 2 s of silence between them.
+sound clip and every Mecha Raccoon sound, with 2 s of silence between them.
 
 The server side (this datapack) makes the mobs walk, climb, leap, get hurt, die and carry a rider; the mod's harness
 driver (Harness.java, on in dev through -Dhaven_arachnowhat.harness=true) does what only the client can show: the
@@ -97,7 +97,7 @@ def split(name: str, default_ns: str):
 
 def clips():
     """(label, sound id to play, seconds). Every distinct spider sound file (through the harness resource pack, which
-    gives each file its own event), then every Angry Raccoon event (as the game plays it: a random variant, so the wait
+    gives each file its own event), then every Mecha Raccoon event (as the game plays it: a random variant, so the wait
     covers the longest one)."""
     files = {}
     for group, ns, events in EVENTS:

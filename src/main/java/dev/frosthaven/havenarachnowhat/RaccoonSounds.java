@@ -15,9 +15,10 @@ import net.minecraft.world.phys.AABB;
 import net.neoforged.neoforge.client.event.sound.PlaySoundEvent;
 
 /**
- * Swaps spider sound events for Angry Raccoon events (assets/haven_arachnowhat/sounds.json: vanilla fox sounds at lower
- * pitches) as the client plays them, and plays the event's ".grit" layer with it when it has one (a quieter wolf,
- * hoglin, polar bear or ravager sound that makes the fox voice gruff). The Spider, Cave Spider and Ice Spider share the {@code entity.spider.*} events,
+ * Swaps spider sound events for Mecha Raccoon events (assets/haven_arachnowhat/sounds.json: vanilla iron golem, crafter,
+ * piston and chain sounds at other pitches) as the client plays them, and plays the event's ".grit" layer with it when
+ * it has one (a quieter beacon, metal or glass sound that adds the electronic edge). The Spider, Cave Spider and Ice
+ * Spider share the {@code entity.spider.*} events,
  * so the nearest spider-like mob at the sound's position picks the variant. Other mobs that reuse spider sound files
  * under their own events are not changed.
  */
@@ -60,21 +61,21 @@ final class RaccoonSounds {
             if (path.startsWith("entity.spider.")) return nearestKind(s) + "." + path.substring("entity.spider.".length());
         } else if (id.getNamespace().equals("irons_spellbooks") && path.startsWith("entity.ice_spider.")) {
             String e = path.substring("entity.ice_spider.".length());
-            return ICE_EVENTS.contains(e) ? "angry_ice_raccoon." + e : null;
+            return ICE_EVENTS.contains(e) ? "mecha_ice_raccoon." + e : null;
         }
         return null;
     }
 
-    /** The variant of the closest spider-like mob within 3 blocks of the sound; the Angry Raccoon if none. */
+    /** The variant of the closest spider-like mob within 3 blocks of the sound; the Mecha Raccoon if none. */
     private static String nearestKind(SoundInstance s) {
         var level = Minecraft.getInstance().level;
-        String best = "angry_raccoon";
+        String best = "mecha_raccoon";
         if (level == null) return best;
         double bestD = Double.MAX_VALUE;
         for (Entity e : level.getEntities((Entity) null, new AABB(s.getX(), s.getY(), s.getZ(), s.getX(), s.getY(), s.getZ()).inflate(3))) {
-            String kind = e.getType() == EntityType.CAVE_SPIDER ? "angry_cave_raccoon"
-                    : e.getType() == EntityType.SPIDER ? "angry_raccoon"
-                    : BuiltInRegistries.ENTITY_TYPE.getKey(e.getType()).equals(ICE_SPIDER) ? "angry_ice_raccoon" : null;
+            String kind = e.getType() == EntityType.CAVE_SPIDER ? "mecha_cave_raccoon"
+                    : e.getType() == EntityType.SPIDER ? "mecha_raccoon"
+                    : BuiltInRegistries.ENTITY_TYPE.getKey(e.getType()).equals(ICE_SPIDER) ? "mecha_ice_raccoon" : null;
             double d = e.distanceToSqr(s.getX(), s.getY(), s.getZ());
             if (kind != null && d < bestD) {
                 best = kind;

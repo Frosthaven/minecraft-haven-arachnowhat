@@ -9,7 +9,7 @@ public final class RaccoonConfig {
 
     static {
         ModConfigSpec.Builder b = new ModConfigSpec.Builder();
-        REPLACE_SPIDERS = b.comment("Replace spiders with angry raccoons: models, names and sounds. /spiders on and /spiders off set it in game.")
+        REPLACE_SPIDERS = b.comment("Replace spiders with mecha raccoons: models, names and sounds. /spiders on and /spiders off set it in game.")
                 .define("replaceSpiders", true);
         SPEC = b.build();
     }

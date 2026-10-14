@@ -8,7 +8,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.util.Mth;
 
 /**
- * The Angry Ice Raccoon: the raccoon model plus the Ice Spider's own states. Crouching lowers the body and splays the
+ * The Mecha Ice Raccoon: the raccoon model plus the Ice Spider's own states. Crouching lowers the body and splays the
  * legs; grappling holds the head down with the jaw open; each named Iron's animation (bite, fang, swipe, pounce, leap
  * back, cast, emerge) plays its keyframes ({@link IceRaccoonAnimations}) from the moment the mixin saw it start.
  * Climbing is the renderer's surface rotation. Its attacks are named animations, so the plain swing bite is off.

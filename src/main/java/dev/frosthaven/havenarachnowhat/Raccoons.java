@@ -57,7 +57,7 @@ public final class Raccoons {
 
     /** One raccoon look: its texture and its eyes-only texture (tools/textures.py). */
     public enum Skin {
-        ANGRY("angry_raccoon"), CAVE("angry_cave_raccoon"), ICE("angry_ice_raccoon");
+        MECHA("mecha_raccoon"), CAVE("mecha_cave_raccoon"), ICE("mecha_ice_raccoon");
 
         public final ResourceLocation texture, eyes;
 

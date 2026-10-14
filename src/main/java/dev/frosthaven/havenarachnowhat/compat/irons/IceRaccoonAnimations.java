@@ -7,7 +7,7 @@ import net.minecraft.client.animation.Keyframe;
 import net.minecraft.client.animation.KeyframeAnimations;
 
 /**
- * Angry Ice Raccoon versions of the Ice Spider's GeckoLib animations, on the raccoon's bones (root, body, head, jaw,
+ * Mecha Ice Raccoon versions of the Ice Spider's GeckoLib animations, on the raccoon's bones (root, body, head, jaw,
  * ears, tail, four legs). Same names and lengths as Iron's ice_spider.animation.json, so each one lasts as long as the
  * attack it stands for. Positions in model pixels (+y up), rotations in degrees (+x tips forward and down).
  */

@@ -13,7 +13,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.monster.Spider;
 
 /**
- * The Angry Raccoon: our own quadruped (body; head with snout, jaw and ears; ringed tail; four legs) in its own model
+ * The Mecha Raccoon: our own quadruped (body; head with snout, jaw and ears; ringed tail; four legs) in its own model
  * layer, so entity model packs never touch it. Texture layout: tools/textures.py. Animated from the mob's state: walk,
  * head look, bite on the attack swing, leap pose while airborne. Climbing is a whole-body rotation in the renderer;
  * hurt and death come from the living renderer. {@code IceRaccoonModel} adds the Ice Spider's states and animations.

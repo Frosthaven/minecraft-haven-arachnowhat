@@ -19,7 +19,7 @@ import net.neoforged.neoforge.client.gui.ConfigurationScreen;
 import net.neoforged.neoforge.client.gui.IConfigScreenFactory;
 import net.neoforged.neoforge.common.NeoForge;
 
-/** Client only: spiders are drawn, named and heard as Angry Raccoons. Spider and Cave Spider always; Iron's Ice Spider
+/** Client only: spiders are drawn, named and heard as Mecha Raccoons. Spider and Cave Spider always; Iron's Ice Spider
  *  when that mod is loaded ({@link IronsCompat}). The server and other players see no change. */
 @Mod(value = HavenArachnowhat.ID, dist = Dist.CLIENT)
 public final class HavenArachnowhat {
@@ -41,6 +41,6 @@ public final class HavenArachnowhat {
         NeoForge.EVENT_BUS.addListener(PlaySoundEvent.class, RaccoonSounds::onPlay);
         NeoForge.EVENT_BUS.addListener(RegisterClientCommandsEvent.class, SpiderCommands::register);
         NeoForge.EVENT_BUS.addListener(ClientTickEvent.Post.class, Harness::tick);
-        Raccoons.LOG.once("start", "Angry Raccoons on (Iron's Ice Spider {})", IRONS ? "covered" : "not installed");
+        Raccoons.LOG.once("start", "Mecha Raccoons on (Iron's Ice Spider {})", IRONS ? "covered" : "not installed");
     }
 }

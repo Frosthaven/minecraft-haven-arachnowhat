@@ -5,7 +5,7 @@ import net.minecraft.commands.Commands;
 import net.minecraft.network.chat.Component;
 import net.neoforged.neoforge.client.event.RegisterClientCommandsEvent;
 
-/** Client commands {@code /spiders on} (spiders stay spiders) and {@code /spiders off} (angry raccoons), saved to the config. */
+/** Client commands {@code /spiders on} (spiders stay spiders) and {@code /spiders off} (mecha raccoons), saved to the config. */
 final class SpiderCommands {
     private SpiderCommands() {}
 

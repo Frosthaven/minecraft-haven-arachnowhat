@@ -6,7 +6,7 @@ import net.minecraft.world.entity.AnimationState;
 import net.minecraft.world.entity.Entity;
 
 /** The named animation each client Ice Spider was last told to play (captured by the playAnimation mixin), with its
- *  start time, for the Angry Ice Raccoon model. Render thread only. */
+ *  start time, for the Mecha Ice Raccoon model. Render thread only. */
 public final class IceAnims {
     public record Playing(String name, AnimationState state) {}
 

@@ -1,6 +1,6 @@
 # haven-arachnowhat (`haven_arachnowhat`)
 
-Client-only NeoForge 1.21.1 mod: spiders are drawn, named and heard as Angry Raccoons. Spider and Cave Spider always;
+Client-only NeoForge 1.21.1 mod: spiders are drawn, named and heard as Mecha Raccoons. Spider and Cave Spider always;
 Iron's Spells 'n Spellbooks' Ice Spider when that mod is loaded (optional dependency, `ordering="AFTER"` so our
 renderer wins). Must work in plain NeoForge too: no hard dependency on any modpack mod or texture.
 
@@ -14,7 +14,7 @@ renderer wins). Must work in plain NeoForge too: no hard dependency on any modpa
   nose-up while `isClimbing()`, and hands the entity to the original renderer when replacing is off.
 - `RaccoonSounds`: `PlaySoundEvent` swaps `entity.spider.*` (nearest spider-like mob picks the variant),
   `entity.parrot.imitate.spider` and Iron's `entity.ice_spider.*` for our events, and plays each event's `.grit` layer
-  with it (sounds.json: fox voices plus a quieter wolf/hoglin/polar bear/ravager sound).
+  with it (sounds.json: iron golem/crafter/piston/chain sounds plus a quieter beacon/metal/glass sound).
 - Names: `ClientLanguageMixin` maps the spider name keys to `haven_arachnowhat.name.*` while replacing, so they switch
   live; `EntityTypeAccessor` clears the cached type name on change. No language file overrides.
 - `compat/irons`: `IceRaccoonModel` (crouch, grapple, named animations), `IceRaccoonRenderer` (surface-normal rotation

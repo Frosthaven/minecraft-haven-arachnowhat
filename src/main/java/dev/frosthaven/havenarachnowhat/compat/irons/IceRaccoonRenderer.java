@@ -14,7 +14,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.phys.Vec3;
 import org.joml.Quaternionf;
 
-/** Draws Iron's Ice Spider as the Angry Ice Raccoon, over about the area its legs cover. Like Iron's renderer, the whole
+/** Draws Iron's Ice Spider as the Mecha Ice Raccoon, over about the area its legs cover. Like Iron's renderer, the whole
  *  body turns from straight up to the spider's surface normal, so it lies flat on walls and ceilings it climbs. */
 final class IceRaccoonRenderer extends MobRenderer<IceSpiderEntity, IceRaccoonModel> {
     private static final float SCALE = 2.6F;
