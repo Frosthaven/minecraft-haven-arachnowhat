@@ -1,6 +1,6 @@
-package dev.frosthaven.havenarachnawhat.mixin;
+package dev.frosthaven.havenarachnowhat.mixin;
 
-import dev.frosthaven.havenarachnawhat.IceAnims;
+import dev.frosthaven.havenarachnowhat.IceAnims;
 import net.minecraft.world.entity.Entity;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Pseudo;

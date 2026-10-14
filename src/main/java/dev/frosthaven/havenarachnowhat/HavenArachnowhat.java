@@ -1,6 +1,6 @@
-package dev.frosthaven.havenarachnawhat;
+package dev.frosthaven.havenarachnowhat;
 
-import dev.frosthaven.havenarachnawhat.compat.irons.IronsCompat;
+import dev.frosthaven.havenarachnowhat.compat.irons.IronsCompat;
 import net.minecraft.client.renderer.entity.CaveSpiderRenderer;
 import net.minecraft.client.renderer.entity.SpiderRenderer;
 import net.minecraft.world.entity.EntityType;
@@ -21,12 +21,12 @@ import net.neoforged.neoforge.common.NeoForge;
 
 /** Client only: spiders are drawn, named and heard as Angry Raccoons. Spider and Cave Spider always; Iron's Ice Spider
  *  when that mod is loaded ({@link IronsCompat}). The server and other players see no change. */
-@Mod(value = HavenArachnawhat.ID, dist = Dist.CLIENT)
-public final class HavenArachnawhat {
-    public static final String ID = "haven_arachnawhat";
+@Mod(value = HavenArachnowhat.ID, dist = Dist.CLIENT)
+public final class HavenArachnowhat {
+    public static final String ID = "haven_arachnowhat";
     static final boolean IRONS = ModList.get().isLoaded(IronsCompat.MOD);
 
-    public HavenArachnawhat(IEventBus modBus, ModContainer container) {
+    public HavenArachnowhat(IEventBus modBus, ModContainer container) {
         container.registerConfig(ModConfig.Type.CLIENT, RaccoonConfig.SPEC);
         container.registerExtensionPoint(IConfigScreenFactory.class, ConfigurationScreen::new);
         modBus.addListener(ModConfigEvent.Reloading.class, e -> Raccoons.changed());   // edited on the config screen or on disk

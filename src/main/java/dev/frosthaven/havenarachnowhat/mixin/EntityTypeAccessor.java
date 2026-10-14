@@ -1,4 +1,4 @@
-package dev.frosthaven.havenarachnawhat.mixin;
+package dev.frosthaven.havenarachnowhat.mixin;
 
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EntityType;

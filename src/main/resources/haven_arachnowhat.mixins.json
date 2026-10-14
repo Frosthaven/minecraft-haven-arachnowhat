@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "dev.frosthaven.havenarachnawhat.mixin",
+  "package": "dev.frosthaven.havenarachnowhat.mixin",
   "compatibilityLevel": "JAVA_21",
   "client": [
     "ClientLanguageMixin",

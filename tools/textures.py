@@ -1,5 +1,5 @@
 """Paints the Angry Raccoon textures (64x64, the UV layout of RaccoonModel.createBodyLayer) and their eyes-only
-textures into src/main/resources/assets/haven_arachnawhat/textures/entity/. Run after changing the model's boxes or
+textures into src/main/resources/assets/haven_arachnowhat/textures/entity/. Run after changing the model's boxes or
 a palette: uv run --with pillow python -I tools/textures.py
 """
 import random
@@ -7,7 +7,7 @@ from pathlib import Path
 
 from PIL import Image
 
-OUT = Path(__file__).resolve().parent.parent / "src/main/resources/assets/haven_arachnawhat/textures/entity"
+OUT = Path(__file__).resolve().parent.parent / "src/main/resources/assets/haven_arachnowhat/textures/entity"
 
 # Roles: fur, dark (dorsal stripe, tail rings, paws), light (belly, muzzle, brows), mask, eye (glows), mouth.
 # Spider tones with dark purple in place of black.

@@ -1,6 +1,6 @@
-package dev.frosthaven.havenarachnawhat;
+package dev.frosthaven.havenarachnowhat;
 
-import dev.frosthaven.havenarachnawhat.mixin.AbstractSoundInstanceAccessor;
+import dev.frosthaven.havenarachnowhat.mixin.AbstractSoundInstanceAccessor;
 import java.util.Set;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.sounds.AbstractSoundInstance;
@@ -15,7 +15,7 @@ import net.minecraft.world.phys.AABB;
 import net.neoforged.neoforge.client.event.sound.PlaySoundEvent;
 
 /**
- * Swaps spider sound events for Angry Raccoon events (assets/haven_arachnawhat/sounds.json: vanilla fox sounds at lower
+ * Swaps spider sound events for Angry Raccoon events (assets/haven_arachnowhat/sounds.json: vanilla fox sounds at lower
  * pitches) as the client plays them, and plays the event's ".grit" layer with it when it has one (a quieter wolf,
  * hoglin, polar bear or ravager sound that makes the fox voice gruff). The Spider, Cave Spider and Ice Spider share the {@code entity.spider.*} events,
  * so the nearest spider-like mob at the sound's position picks the variant. Other mobs that reuse spider sound files
@@ -37,7 +37,7 @@ final class RaccoonSounds {
             event.setSound(copy(s, Raccoons.id(replacement)));
             id = Raccoons.id(replacement);
         }
-        if (!id.getNamespace().equals(HavenArachnawhat.ID) || id.getPath().endsWith(".grit")) return;
+        if (!id.getNamespace().equals(HavenArachnowhat.ID) || id.getPath().endsWith(".grit")) return;
         ResourceLocation grit = Raccoons.id(id.getPath() + ".grit");
         Minecraft mc = Minecraft.getInstance();
         if (mc.getSoundManager().getSoundEvent(grit) == null) return;

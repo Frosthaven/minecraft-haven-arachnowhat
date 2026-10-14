@@ -1,4 +1,4 @@
-package dev.frosthaven.havenarachnawhat;
+package dev.frosthaven.havenarachnowhat;
 
 import net.minecraft.client.model.HierarchicalModel;
 import net.minecraft.client.model.geom.ModelLayerLocation;

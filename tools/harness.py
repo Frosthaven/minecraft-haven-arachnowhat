@@ -3,7 +3,7 @@ every spider behavior on its own labeled mob ("Spider: walk", "Ice Spider: attac
 sound clip and every Angry Raccoon sound, with 2 s of silence between them.
 
 The server side (this datapack) makes the mobs walk, climb, leap, get hurt, die and carry a rider; the mod's harness
-driver (Harness.java, on in dev through -Dhaven_arachnawhat.harness=true) does what only the client can show: the
+driver (Harness.java, on in dev through -Dhaven_arachnowhat.harness=true) does what only the client can show: the
 attack swing and each Ice Spider animation and state.
 
 Run: uv run --with nbtlib python -I tools/harness.py [--launch]   (builds nothing: run ./gradlew build first)
@@ -27,9 +27,9 @@ DST = PRISM / "instances/dev"
 GAME = DST / "minecraft"
 WORLD = GAME / "saves/dev"
 NS = "spider_harness"
-MOD_ID = "haven_arachnawhat"
-JAR = REPO / "build/libs/haven-arachnawhat-1.0.0.jar"
-JVM_ARGS = "-Dhaven_arachnawhat.harness=true"
+MOD_ID = "haven_arachnowhat"
+JAR = REPO / "build/libs/haven-arachnowhat-1.0.0.jar"
+JVM_ARGS = "-Dhaven_arachnowhat.harness=true"
 PAUSE_TICKS = 40  # 2 s between the end of one clip and the start of the next
 SKIP = ["saves", "screenshots", "logs", "crash-reports", "journeymap/data", "backups"]
 Y = -60  # standing height on the default flat world
@@ -143,7 +143,7 @@ def copy_instance():
 def install_mod():
     if not JAR.exists():
         raise SystemExit(f"{JAR} missing: run ./gradlew build first")
-    for old in (GAME / "mods").glob("haven-arachnawhat-*.jar"):
+    for old in (GAME / "mods").glob("haven-arachnowhat-*.jar"):
         old.unlink()
     shutil.copy2(JAR, GAME / "mods" / JAR.name)
 

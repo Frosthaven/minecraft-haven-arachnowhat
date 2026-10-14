@@ -1,4 +1,4 @@
-package dev.frosthaven.havenarachnawhat.mixin;
+package dev.frosthaven.havenarachnowhat.mixin;
 
 import net.minecraft.client.resources.sounds.AbstractSoundInstance;
 import org.spongepowered.asm.mixin.Mixin;

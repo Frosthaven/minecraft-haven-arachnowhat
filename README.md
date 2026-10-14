@@ -1,4 +1,4 @@
-# haven-arachnawhat
+# haven-arachnowhat
 
 An arachnophobia mod for Minecraft 1.21.1 (NeoForge). Spiders become **Angry Raccoons**: new models, names and sounds,
 with every spider behavior still animated. **Client only:** only you see the raccoons. The server, other players and
@@ -12,7 +12,7 @@ the game itself are unchanged: the mobs act, fight and drop the same as before.
 
 ## Download
 
-**[haven-arachnawhat.jar](https://github.com/Frosthaven/minecraft-haven-arachnawhat/releases/latest/download/haven-arachnawhat.jar)**
+**[haven-arachnowhat.jar](https://github.com/Frosthaven/minecraft-haven-arachnowhat/releases/latest/download/haven-arachnowhat.jar)**
 (always the latest build).
 
 ## Install
@@ -22,7 +22,7 @@ You need Minecraft 1.21.1 with NeoForge (any modpack on it works, for example Cr
 1. Open your instance folder.
    - CurseForge: right-click the modpack > Open Folder.
    - Prism Launcher: right-click the instance > Folder, then open `minecraft`.
-2. Copy `haven-arachnawhat.jar` into the `mods` folder.
+2. Copy `haven-arachnowhat.jar` into the `mods` folder.
 3. Start the game.
 
 To update, download the jar again and replace the old one. To remove the mod, delete the jar.
@@ -30,7 +30,7 @@ To update, download the jar again and replace the old one. To remove the mod, de
 ## Turn it on or off
 
 - In game, type `/spiders on` to see spiders, or `/spiders off` to see angry raccoons. It switches at once and is remembered.
-- Or: Esc > Mods > haven-arachnawhat > Config > **Replace spiders with angry raccoons** (default: on).
+- Or: Esc > Mods > haven-arachnowhat > Config > **Replace spiders with angry raccoons** (default: on).
 
 ## What changes
 

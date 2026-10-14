@@ -1,7 +1,7 @@
-package dev.frosthaven.havenarachnawhat.compat.irons;
+package dev.frosthaven.havenarachnowhat.compat.irons;
 
-import dev.frosthaven.havenarachnawhat.IceAnims;
-import dev.frosthaven.havenarachnawhat.RaccoonModel;
+import dev.frosthaven.havenarachnowhat.IceAnims;
+import dev.frosthaven.havenarachnowhat.RaccoonModel;
 import io.redspace.ironsspellbooks.entity.mobs.ice_spider.IceSpiderEntity;
 import net.minecraft.client.animation.AnimationDefinition;
 import net.minecraft.client.model.geom.ModelPart;

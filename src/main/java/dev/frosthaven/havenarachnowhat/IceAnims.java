@@ -1,4 +1,4 @@
-package dev.frosthaven.havenarachnawhat;
+package dev.frosthaven.havenarachnowhat;
 
 import java.util.Map;
 import java.util.WeakHashMap;

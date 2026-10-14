@@ -1,7 +1,7 @@
-package dev.frosthaven.havenarachnawhat;
+package dev.frosthaven.havenarachnowhat;
 
-import dev.frosthaven.havenarachnawhat.compat.irons.IronsCompat;
-import dev.frosthaven.havenarachnawhat.mixin.EntityTypeAccessor;
+import dev.frosthaven.havenarachnowhat.compat.irons.IronsCompat;
+import dev.frosthaven.havenarachnowhat.mixin.EntityTypeAccessor;
 import java.util.Map;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
@@ -13,12 +13,12 @@ public final class Raccoons {
 
     /** Spider name keys and the raccoon keys that stand in for them while replacing (ClientLanguageMixin). */
     public static final Map<String, String> RENAMES = Map.of(
-            "entity.minecraft.spider", "haven_arachnawhat.name.spider",
-            "entity.minecraft.cave_spider", "haven_arachnawhat.name.cave_spider",
-            "entity.irons_spellbooks.ice_spider", "haven_arachnawhat.name.ice_spider",
-            "item.minecraft.spider_spawn_egg", "haven_arachnawhat.name.spider_spawn_egg",
-            "item.minecraft.cave_spider_spawn_egg", "haven_arachnawhat.name.cave_spider_spawn_egg",
-            "item.irons_spellbooks.ice_spider_spawn_egg", "haven_arachnawhat.name.ice_spider_spawn_egg");
+            "entity.minecraft.spider", "haven_arachnowhat.name.spider",
+            "entity.minecraft.cave_spider", "haven_arachnowhat.name.cave_spider",
+            "entity.irons_spellbooks.ice_spider", "haven_arachnowhat.name.ice_spider",
+            "item.minecraft.spider_spawn_egg", "haven_arachnowhat.name.spider_spawn_egg",
+            "item.minecraft.cave_spider_spawn_egg", "haven_arachnowhat.name.cave_spider_spawn_egg",
+            "item.irons_spellbooks.ice_spider_spawn_egg", "haven_arachnowhat.name.ice_spider_spawn_egg");
     private static final ResourceLocation[] RENAMED_TYPES = {
             ResourceLocation.withDefaultNamespace("spider"), ResourceLocation.withDefaultNamespace("cave_spider"),
             ResourceLocation.fromNamespaceAndPath("irons_spellbooks", "ice_spider")};
@@ -39,7 +39,7 @@ public final class Raccoons {
     /** After the setting changes (command, config screen or file): names and queued Ice Spider animations. */
     public static void changed() {
         refreshNames();
-        if (HavenArachnawhat.IRONS) IronsCompat.clearQueuedAnimations();
+        if (HavenArachnowhat.IRONS) IronsCompat.clearQueuedAnimations();
     }
 
     /** Entity types keep their translated name component, and it keeps its text: drop it so the next lookup uses
@@ -52,7 +52,7 @@ public final class Raccoons {
     }
 
     public static ResourceLocation id(String path) {
-        return ResourceLocation.fromNamespaceAndPath(HavenArachnawhat.ID, path);
+        return ResourceLocation.fromNamespaceAndPath(HavenArachnowhat.ID, path);
     }
 
     /** One raccoon look: its texture and its eyes-only texture (tools/textures.py). */

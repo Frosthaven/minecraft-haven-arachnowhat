@@ -1,9 +1,9 @@
-package dev.frosthaven.havenarachnawhat.compat.irons;
+package dev.frosthaven.havenarachnowhat.compat.irons;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import dev.frosthaven.havenarachnawhat.RaccoonEyesLayer;
-import dev.frosthaven.havenarachnawhat.RaccoonModel;
-import dev.frosthaven.havenarachnawhat.Raccoons;
+import dev.frosthaven.havenarachnowhat.RaccoonEyesLayer;
+import dev.frosthaven.havenarachnowhat.RaccoonModel;
+import dev.frosthaven.havenarachnowhat.Raccoons;
 import io.redspace.ironsspellbooks.entity.mobs.ice_spider.IceSpiderEntity;
 import io.redspace.ironsspellbooks.entity.mobs.ice_spider.IceSpiderRenderer;
 import net.minecraft.client.renderer.MultiBufferSource;

@@ -1,4 +1,4 @@
-package dev.frosthaven.havenarachnawhat;
+package dev.frosthaven.havenarachnowhat;
 
 import net.minecraft.commands.CommandSourceStack;
 import net.minecraft.commands.Commands;
@@ -17,7 +17,7 @@ final class SpiderCommands {
 
     private static int set(CommandSourceStack source, boolean raccoons) {
         Raccoons.set(raccoons);
-        source.sendSuccess(() -> Component.translatable(raccoons ? "haven_arachnawhat.spiders.off" : "haven_arachnawhat.spiders.on"), false);
+        source.sendSuccess(() -> Component.translatable(raccoons ? "haven_arachnowhat.spiders.off" : "haven_arachnowhat.spiders.on"), false);
         return 1;
     }
 }

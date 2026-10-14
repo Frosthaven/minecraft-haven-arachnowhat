@@ -1,4 +1,4 @@
-package dev.frosthaven.havenarachnawhat.compat.irons;
+package dev.frosthaven.havenarachnowhat.compat.irons;
 
 import java.util.Map;
 import net.minecraft.client.animation.AnimationChannel;

@@ -1,4 +1,4 @@
-package dev.frosthaven.havenarachnawhat.compat.irons;
+package dev.frosthaven.havenarachnowhat.compat.irons;
 
 import io.redspace.ironsspellbooks.entity.mobs.ice_spider.IceSpiderEntity;
 import io.redspace.ironsspellbooks.entity.mobs.ice_spider.IceSpiderRenderer;
@@ -9,7 +9,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.phys.Vec3;
-import dev.frosthaven.havenarachnawhat.Raccoons;
+import dev.frosthaven.havenarachnowhat.Raccoons;
 import net.neoforged.neoforge.client.event.EntityRenderersEvent;
 
 /** Iron's Spells 'n Spellbooks support. Only called when that mod is loaded, so its classes are never touched otherwise. */

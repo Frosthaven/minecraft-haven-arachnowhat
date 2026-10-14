@@ -7,7 +7,7 @@
         "pitch": 0.7
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_raccoon.ambient"
+    "subtitle": "subtitles.haven_arachnowhat.angry_raccoon.ambient"
   },
   "angry_raccoon.ambient.grit": {
     "sounds": [
@@ -27,7 +27,7 @@
         "pitch": 0.75
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_raccoon.hurt"
+    "subtitle": "subtitles.haven_arachnowhat.angry_raccoon.hurt"
   },
   "angry_raccoon.hurt.grit": {
     "sounds": [
@@ -47,7 +47,7 @@
         "pitch": 0.85
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_raccoon.death"
+    "subtitle": "subtitles.haven_arachnowhat.angry_raccoon.death"
   },
   "angry_raccoon.death.grit": {
     "sounds": [
@@ -68,7 +68,7 @@
         "volume": 0.6
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_raccoon.step"
+    "subtitle": "subtitles.haven_arachnowhat.angry_raccoon.step"
   },
   "angry_cave_raccoon.ambient": {
     "sounds": [
@@ -78,7 +78,7 @@
         "pitch": 1.0
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_cave_raccoon.ambient"
+    "subtitle": "subtitles.haven_arachnowhat.angry_cave_raccoon.ambient"
   },
   "angry_cave_raccoon.ambient.grit": {
     "sounds": [
@@ -98,7 +98,7 @@
         "pitch": 1.05
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_cave_raccoon.hurt"
+    "subtitle": "subtitles.haven_arachnowhat.angry_cave_raccoon.hurt"
   },
   "angry_cave_raccoon.hurt.grit": {
     "sounds": [
@@ -118,7 +118,7 @@
         "pitch": 1.15
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_cave_raccoon.death"
+    "subtitle": "subtitles.haven_arachnowhat.angry_cave_raccoon.death"
   },
   "angry_cave_raccoon.death.grit": {
     "sounds": [
@@ -139,7 +139,7 @@
         "volume": 0.6
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_cave_raccoon.step"
+    "subtitle": "subtitles.haven_arachnowhat.angry_cave_raccoon.step"
   },
   "angry_ice_raccoon.ambient": {
     "sounds": [
@@ -149,7 +149,7 @@
         "pitch": 0.55
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.ambient"
+    "subtitle": "subtitles.haven_arachnowhat.angry_ice_raccoon.ambient"
   },
   "angry_ice_raccoon.ambient.grit": {
     "sounds": [
@@ -169,7 +169,7 @@
         "pitch": 0.6
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.hurt"
+    "subtitle": "subtitles.haven_arachnowhat.angry_ice_raccoon.hurt"
   },
   "angry_ice_raccoon.hurt.grit": {
     "sounds": [
@@ -189,7 +189,7 @@
         "pitch": 0.7
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.death"
+    "subtitle": "subtitles.haven_arachnowhat.angry_ice_raccoon.death"
   },
   "angry_ice_raccoon.death.grit": {
     "sounds": [
@@ -210,7 +210,7 @@
         "volume": 0.8
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.step"
+    "subtitle": "subtitles.haven_arachnowhat.angry_ice_raccoon.step"
   },
   "angry_ice_raccoon.bite": {
     "sounds": [
@@ -220,7 +220,7 @@
         "pitch": 0.65
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.bite"
+    "subtitle": "subtitles.haven_arachnowhat.angry_ice_raccoon.bite"
   },
   "angry_ice_raccoon.bite.grit": {
     "sounds": [
@@ -240,7 +240,7 @@
         "pitch": 0.7
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.swing"
+    "subtitle": "subtitles.haven_arachnowhat.angry_ice_raccoon.swing"
   },
   "angry_ice_raccoon.grapple_latch": {
     "sounds": [
@@ -250,7 +250,7 @@
         "pitch": 0.5
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.grapple_latch"
+    "subtitle": "subtitles.haven_arachnowhat.angry_ice_raccoon.grapple_latch"
   },
   "angry_ice_raccoon.grapple_latch.grit": {
     "sounds": [
@@ -270,7 +270,7 @@
         "pitch": 0.55
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.grapple_spit"
+    "subtitle": "subtitles.haven_arachnowhat.angry_ice_raccoon.grapple_spit"
   },
   "angry_ice_raccoon.howl": {
     "sounds": [
@@ -280,7 +280,7 @@
         "pitch": 0.55
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.angry_ice_raccoon.howl"
+    "subtitle": "subtitles.haven_arachnowhat.angry_ice_raccoon.howl"
   },
   "angry_ice_raccoon.howl.grit": {
     "sounds": [
@@ -301,6 +301,6 @@
         "volume": 0.6
       }
     ],
-    "subtitle": "subtitles.haven_arachnawhat.parrot_imitate"
+    "subtitle": "subtitles.haven_arachnowhat.parrot_imitate"
   }
 }

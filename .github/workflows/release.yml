@@ -1,4 +1,4 @@
-# Publishes haven-arachnawhat.jar as the "latest" release on every push to main that changes the mod.
+# Publishes haven-arachnowhat.jar as the "latest" release on every push to main that changes the mod.
 name: release
 on:
   push:
@@ -16,10 +16,10 @@ jobs:
       - uses: actions/setup-java@v5
         with: { distribution: temurin, java-version: 21 }
       - run: ./gradlew --no-daemon build
-      - run: mkdir dist && cp build/libs/haven-arachnawhat-*.jar dist/haven-arachnawhat.jar
+      - run: mkdir dist && cp build/libs/haven-arachnowhat-*.jar dist/haven-arachnowhat.jar
       - name: Replace the latest release
         env: { GH_TOKEN: "${{ github.token }}" }
         run: |
           gh release delete latest --yes --cleanup-tag || true
-          gh release create latest dist/haven-arachnawhat.jar --title "haven-arachnawhat (latest)" \
-            --notes "Built from ${GITHUB_SHA::7}. Install: drop haven-arachnawhat.jar into your instance's mods folder (see the README)." --latest
+          gh release create latest dist/haven-arachnowhat.jar --title "haven-arachnowhat (latest)" \
+            --notes "Built from ${GITHUB_SHA::7}. Install: drop haven-arachnowhat.jar into your instance's mods folder (see the README)." --latest

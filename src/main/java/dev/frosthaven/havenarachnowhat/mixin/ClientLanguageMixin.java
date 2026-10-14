@@ -1,6 +1,6 @@
-package dev.frosthaven.havenarachnawhat.mixin;
+package dev.frosthaven.havenarachnowhat.mixin;
 
-import dev.frosthaven.havenarachnawhat.Raccoons;
+import dev.frosthaven.havenarachnowhat.Raccoons;
 import net.minecraft.client.resources.language.ClientLanguage;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

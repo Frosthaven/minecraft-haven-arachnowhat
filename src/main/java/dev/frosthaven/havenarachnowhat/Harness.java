@@ -1,6 +1,6 @@
-package dev.frosthaven.havenarachnawhat;
+package dev.frosthaven.havenarachnowhat;
 
-import dev.frosthaven.havenarachnawhat.compat.irons.IronsCompat;
+import dev.frosthaven.havenarachnowhat.compat.irons.IronsCompat;
 import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionHand;
@@ -11,10 +11,10 @@ import net.neoforged.neoforge.client.event.ClientTickEvent;
 /**
  * Test harness driver (tools/harness.py world): mobs named "<Label>: <action>" act out client-side visuals the server
  * gives no way to force, such as a Spider's attack swing or each Ice Spider animation. Off unless the JVM has
- * {@code -Dhaven_arachnawhat.harness=true}.
+ * {@code -Dhaven_arachnowhat.harness=true}.
  */
 final class Harness {
-    static final boolean running = Boolean.getBoolean("haven_arachnawhat.harness");
+    static final boolean running = Boolean.getBoolean("haven_arachnowhat.harness");
 
     private Harness() {}
 
@@ -30,7 +30,7 @@ final class Harness {
             String action = s.substring(i + 2);
             if (e instanceof Spider spider) {
                 if (action.equals("attack") && spider.tickCount % 30 == 0) spider.swing(InteractionHand.MAIN_HAND);
-            } else if (HavenArachnawhat.IRONS && IronsCompat.isIceSpider(e)) {
+            } else if (HavenArachnowhat.IRONS && IronsCompat.isIceSpider(e)) {
                 IronsCompat.harness(e, action);
             }
         }
