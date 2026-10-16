@@ -33,4 +33,5 @@ spider clip then every raccoon event. Datapack drives walk/climb/leap/hurt/death
 attack swing and each Ice Spider animation/state client side. Bump `BUILD` to rebuild the stage (then /reload);
 old-build mobs are voided as they load. Java or asset changes need a game restart (the jar is held open).
 
-Release: push to main; CI publishes `haven-arachnowhat.jar` as the `latest` release.
+Release: push to main; CI publishes `haven-arachnowhat.jar` as the rolling `latest` release and as an immutable
+`v<mod_version>-<sha7>` release (the Haven pack pins one of those with `just bump-mod haven-arachnowhat`).

@@ -1,9 +1,10 @@
-# Publishes haven-arachnowhat.jar as the "latest" release on every push to main that changes the mod.
+# On every push to main that changes the mod: an immutable versioned release (v<mod_version>-<sha7>, the jar, for the
+# Haven pack to pin by hash with `just bump-mod haven-arachnowhat`) and the rolling "latest" release (linked from the README).
 name: release
 on:
   push:
     branches: [main]
-    paths: [src/**, build.gradle, gradle.properties, settings.gradle, gradle/**]
+    paths: [src/**, build.gradle, gradle.properties, settings.gradle, gradle/**, .github/workflows/release.yml]
   workflow_dispatch:
 permissions:
   contents: write
@@ -23,3 +24,12 @@ jobs:
           gh release delete latest --yes --cleanup-tag || true
           gh release create latest dist/haven-arachnowhat.jar --title "haven-arachnowhat (latest)" \
             --notes "Built from ${GITHUB_SHA::7}. Install: drop haven-arachnowhat.jar into your instance's mods folder (see the README)." --latest
+      - name: Create the versioned release
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          ver="$(grep "^mod_version=" gradle.properties | cut -d= -f2)"
+          tag="v${ver}-${GITHUB_SHA::7}"
+          gh release create "$tag" dist/haven-arachnowhat.jar \
+            --target "$GITHUB_SHA" --title "haven-arachnowhat ${ver} (${GITHUB_SHA::7})" \
+            --notes "Immutable build of ${GITHUB_SHA::7}, for pinning by hash (the Haven pack). The README links the rolling 'latest'." \
+            --latest=false
