@@ -1,4 +1,4 @@
-# haven-arachnowhat
+# Haven Arachnowhat
 
 An arachnophobia mod for Minecraft 1.21.1 (NeoForge). Spiders become **Mecha Raccoons**: new models, names and sounds,
 with every spider behavior still animated. **Client only:** only you see the raccoons. The server, other players and
