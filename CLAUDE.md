@@ -35,3 +35,18 @@ old-build mobs are voided as they load. Java or asset changes need a game restar
 
 Release: push to main; CI publishes `haven-arachnowhat.jar` as the rolling `latest` release and as an immutable
 `v<mod_version>-<sha7>` release (the Haven pack pins one of those with `just bump-mod haven-arachnowhat`).
+
+## Key hints (haven-create-ui-ux): check them on every feature change
+
+The hotbar mod (haven-create-ui-ux 1.6.0+, repo minecraft-create-ui-remix) shows **contextual key hints** (centered
+above the action bar: what the crosshair's target does with the held item) and **stateful key hints** (bottom right:
+what the player rides, holds and wears, with modes and fuel; the Escape menu's global keys). Each hint comes from the
+owning mod's own checks, called by class and method name (KeyRules, KeyCreate, KeyMods, KeyVanilla, KeyFluids), or from
+audited data (`mod/keyhints`, remade with its `scan.py` / `scan2.py` and `merge.py`).
+
+When this repo adds, removes or changes a right-click use, a held item's use, a key mapping, a mode, a worn device or
+a readout (fuel, charge, level), update the hints in minecraft-create-ui-remix in the same piece of work: a rule, or a
+data row, and a test scene. A rename of a class or method that a hint names by string fails silently (the hint just
+disappears), so search minecraft-create-ui-remix for the old name before a rename.
+
+This repo: any use or key it adds to its spiders or items needs a hint row.
